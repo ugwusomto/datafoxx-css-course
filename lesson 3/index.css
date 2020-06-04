@@ -1,0 +1,15 @@
+body{}
+
+.para1{
+    color:red;
+}
+
+.para2{
+    color: rgb(24, 38, 150);
+    font-weight: bold;
+}
+
+.para3{
+    color: #11aacd;
+    background-color: rgba(000,000,000,1);
+}
