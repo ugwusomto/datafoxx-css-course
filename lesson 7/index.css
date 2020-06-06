@@ -1,0 +1,35 @@
+*{
+    /* background-color: #eeeeee; */
+}
+
+
+.section{
+    width: 80%;
+    min-height: 100px;
+}
+
+.section .para1{
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 30px;
+}
+
+.section .para2{
+    border-color: blue;
+    border-width: 5px;
+    border-style: dotted;
+    font-size: 30px;
+}
+
+.section .para3{
+    border-bottom-color: orange ;
+    border-bottom-width: 4px;
+    border-bottom-style: groove;
+    font-size: 30px;
+}
+
+.section .para4{
+    border: 5px solid teal;
+    font-size: 30px;
+}
