@@ -1,0 +1,32 @@
+*{
+    /* background-color: #000000; */
+}
+
+.header h1{
+     text-decoration: underline;
+}
+
+.section{
+    width: 100%;
+    min-height: 200px;
+}
+
+.section span{
+     display: block;
+}
+
+.section p{
+    display: inline;
+}
+
+.section .para4{
+     display: none;
+}
+
+.section .para5{
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background-color:#11aacd;
+    color:#fff;
+}
