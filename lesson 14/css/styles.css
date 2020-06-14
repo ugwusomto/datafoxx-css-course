@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+     margin: 0px;
+     padding: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+
+/* Header section */
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo{
+     display: inline-block;
+    vertical-align: top;
+     width: 10%;
+     height: 50px;
+     margin-left: 50px;
+     padding: 15px 10px;
+}
+
+.header .logo img{
+    width: 110px;
+    height: 35px;
+}
+
+.header .nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    margin-left: 250px;
+}
+
+.header .nav ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+}
+
+.header .nav ul li{
+     display: inline-block;
+     width: auto;
+     height: 70px;
+     text-align: center;
+     padding: 25px;
+     font-weight: bold;
+     font-size: 15px;
+}
+
+.header .nav ul li:hover{
+    background-color: #FAFAFA;
+}
+
+.header .nav ul li a{
+    color: #044EA8;
+    text-decoration: none;
+}
+
+.header .btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    background-color: #044EA8;
+    padding: 10px 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+
+.header .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .btn:hover{
+    background-color: #fff;
+    border: 1px solid #044EA8;
+}
+
+.header .btn:hover a{
+    color: #000;
+}
