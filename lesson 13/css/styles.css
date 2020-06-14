@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+     margin: 0px;
+     padding: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
