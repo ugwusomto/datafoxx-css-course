@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+     margin: 0px;
+     padding: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+
+/* Header section */
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo{
+     display: inline-block;
+    vertical-align: top;
+     width: 10%;
+     height: 50px;
+     margin-left: 50px;
+     padding: 15px 10px;
+}
+
+.header .logo img{
+    width: 110px;
+    height: 35px;
+}
+
+.header .nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    margin-left: 250px;
+}
+
+.header .nav ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+}
+
+.header .nav ul li{
+     display: inline-block;
+     width: auto;
+     height: 70px;
+     text-align: center;
+     padding: 25px;
+     font-weight: bold;
+     font-size: 15px;
+}
+
+.header .nav ul li:hover{
+    background-color: #FAFAFA;
+}
+
+.header .nav ul li a{
+    color: #044EA8;
+    text-decoration: none;
+}
+
+.header .btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    background-color: #044EA8;
+    padding: 10px 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+
+.header .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .btn:hover{
+    background-color: #fff;
+    border: 1px solid #044EA8;
+}
+
+.header .btn:hover a{
+    color: #000;
+}
+
+
+/* Introduction section */
+.intro {
+    width: 100%;
+    min-height: 500px;
+    background-color: #044EA8;
+    padding: 20px;
+    padding-top: 200px;
+}
+
+.intro .text_box{
+    width: 40%;
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.intro .img_box{
+    width: 35%;
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding:10px;
+}
+
+.intro .text_box h1{
+    /* font-size: 20px; */
+    margin-bottom: 20px;
+
+}
+
+.intro .text_box p{
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+    line-height: 25px;
+
+}
+
+.intro .text_box a{
+   
+    display: block;
+    width: 60%;
+    padding: 15px 10px;
+    background-color: #fff;
+    color: #044EA8;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 10px;
+
+
+}
+
+.intro .text_box a:hover{
+    background-color: #044EA8;
+    color: #fff;
+}
+
+
+/* Launch section */
+.launch{
+    width: 100%;
+    min-width: 100px;
+    background-image: url(../images/launch.png);
+    background-position: top;
+}
+
+.launch .icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+    margin-left: 60px;
+    /* background-color: red; */
+
+    font-size: 60px;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+
+.launch .text {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    min-height: 50px;
+    text-align: left;
+    color: #fff;
+    /* background-color: red; */
+    margin: 30px 5px;
+    padding: 20px 10px;
+}
+
+.launch .text a{
+    display: block;
+    margin-bottom: 19px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.launch .text p{
+    font-size: 18px;
+}
+
+
+.launch .btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    background-color: #fff;
+    color: #044EA8;
+    padding: 10px 5px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.launch .btn:hover{
+    background-color: #023C80;
+    color: #fff;
+}
+
+
+/* partners */
+
+.partners{
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.partners img{
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    margin: 40px 50px;
+}
+
+/* experience */
+
+.experience{
+    width: 100%;
+    min-height: 100px;
+    padding: 100px 15px 50px 15px;
+    text-align: center;
+}
+
+
+.experience .box_text{
+    width: 50%;
+    min-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    /* background-color: #000000; */
+    padding: 70px 15px 15px 15px;
+
+}
+
+
+.experience .box_img{
+    width: 40%;
+    min-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    /* background-color: #000000; */
+    /* padding: 70px 15px 15px 15px; */
+
+}
+
+
+.experience .box_img img{
+    width: 95%;
+}
+
+
+.experience .box_text h1{
+   
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 30px;
+      color: #0857B4;
+
+}
+
+   
+.experience .box_text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #616161;
+}
+
+
+
+/* Support section */
+
+.support{
+    width: 100%;
+    min-height: 100px;
+    padding: 100px 15px 50px 15px;
+    text-align: center;
+}
+
+
+.support .box_img{
+     width: 45%;
+     min-height: 40px;
+     display: inline-block;
+     vertical-align: top;
+     text-align: left;
+     padding-left: 30px;
+}
+
+.support .box_text{
+    width: 50%;
+    min-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+   padding: 120px 15px 15px 15px;
+}
+
+
+.support .box_img img{
+    width: 95%;
+}
+
+
+.support .box_text h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 27px;
+    color: #0857B4;
+}
+
+.support .box_text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #616161;
+}
+
+.support .box_text a{
+    display: block;
+    width: 40%;
+    background-color: #0358B5;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration:none ;
+    font-weight: bold;
+}
+
+
+.support .box_text a:hover{
+
+ background-color: #023C80;
+}
+
